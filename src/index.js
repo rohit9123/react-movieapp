@@ -9,10 +9,7 @@ import movies from './reducers'
 const store=createStore(movies)
 console.log(store)
 
-store.dispatch({
-  type: 'ADD_MOVIES',
-  movies: [{name:"superman"}]
-})
+
 
 console.log(store.getState());
 
