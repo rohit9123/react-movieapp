@@ -36,7 +36,7 @@ onChangeTab=(val)=>{
 
   render(){
   let id=1;
-  let movietab=true;
+  // let movietab=true;
   const {list,favourites,showFavourite}=this.props.store.getState();
   console.log(this.props.store.getState());
   const displayMovies=showFavourite?favourites:list
